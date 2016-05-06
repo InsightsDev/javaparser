@@ -41,6 +41,8 @@ import org.jbehave.core.steps.Parameters;
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
 
+import org.junit.Ignore;
+
 import static com.github.javaparser.bdd.steps.SharedSteps.getMemberByTypeAndPosition;
 import static org.hamcrest.CoreMatchers.instanceOf;
 import static org.hamcrest.CoreMatchers.is;
@@ -50,6 +52,8 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertThat;
 import static org.junit.Assert.fail;
 
+
+@Ignore
 public class CommentParsingSteps {
 
     private CompilationUnit compilationUnit;
