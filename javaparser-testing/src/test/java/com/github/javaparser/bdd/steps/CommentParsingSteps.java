@@ -52,10 +52,9 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertThat;
 import static org.junit.Assert.fail;
 
-
-@Ignore
 public class CommentParsingSteps {
 
+	/*
     private CompilationUnit compilationUnit;
     private CommentsCollection commentsCollection;
     private String sourceUnderTest;
@@ -398,5 +397,5 @@ public class CommentParsingSteps {
         comment.setEndLine(Integer.parseInt(row.values().get("endLine")));
         comment.setEndColumn(Integer.parseInt(row.values().get("endColumn")));
         return comment;
-    }
+    }*/
 }
