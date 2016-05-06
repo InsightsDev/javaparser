@@ -54,7 +54,6 @@ import static org.junit.Assert.fail;
 
 public class CommentParsingSteps {
 
-	/*
     private CompilationUnit compilationUnit;
     private CommentsCollection commentsCollection;
     private String sourceUnderTest;
@@ -397,5 +396,5 @@ public class CommentParsingSteps {
         comment.setEndLine(Integer.parseInt(row.values().get("endLine")));
         comment.setEndColumn(Integer.parseInt(row.values().get("endColumn")));
         return comment;
-    }*/
+    }
 }
