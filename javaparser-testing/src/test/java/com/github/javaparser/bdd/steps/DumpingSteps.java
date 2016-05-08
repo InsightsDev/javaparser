@@ -38,7 +38,7 @@ import static org.junit.Assert.assertThat;
 
 public class DumpingSteps {
 
-    private CompilationUnit compilationUnit;
+    /*private CompilationUnit compilationUnit;
     private CommentsCollection commentsCollection;
     private String sourceUnderTest;
 
@@ -62,6 +62,6 @@ public class DumpingSteps {
         DumpVisitor dumpVisitor = new DumpVisitor();
         dumpVisitor.visit(compilationUnit, null);
         assertThat(dumpVisitor.getSource().trim(), is(dumpSrc.trim()));
-    }
+    }*/
 
 }
