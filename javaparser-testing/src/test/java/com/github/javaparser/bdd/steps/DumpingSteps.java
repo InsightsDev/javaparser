@@ -38,30 +38,30 @@ import static org.junit.Assert.assertThat;
 
 public class DumpingSteps {
 
-    /*private CompilationUnit compilationUnit;
+    private CompilationUnit compilationUnit;
     private CommentsCollection commentsCollection;
     private String sourceUnderTest;
 
-    @Given("the class:$classSrc")
+    //@Given("the class:$classSrc")
     public void givenTheClass(String classSrc) {
         this.sourceUnderTest = classSrc.trim();
     }
 
-    @Given("the compilation unit:$classSrc")
+    //@Given("the compilation unit:$classSrc")
     public void givenTheCompilationUnit(String classSrc) {
         this.sourceUnderTest = classSrc.trim();
     }
 
-    @When("the class is parsed by the Java parser")
+    //@When("the class is parsed by the Java parser")
     public void whenTheClassIsParsedByTheJavaParser() throws ParseException {
         compilationUnit = JavaParser.parse(new ByteArrayInputStream(sourceUnderTest.getBytes()));
     }
 
-    @Then("it is dumped to:$dumpSrc")
+    //@Then("it is dumped to:$dumpSrc")
     public void isDumpedTo(String dumpSrc) {
         DumpVisitor dumpVisitor = new DumpVisitor();
         dumpVisitor.visit(compilationUnit, null);
         assertThat(dumpVisitor.getSource().trim(), is(dumpSrc.trim()));
-    }*/
+    }
 
 }
